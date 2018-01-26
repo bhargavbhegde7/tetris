@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tetris</title>
+  <link rel="stylesheet" type="text/css" href="styles/grid_style.css">
+  <script type="text/javascript" src="js/game.js"></script>
+  <meta name="viewport" content="user-scalable=no" />
+</head>
+<body onload="addCells()">
+  <div class="outer-panel">
+    <div class="game-panel">
+      <div class="game-display" id="game-display">
+        <div class="cells-wrapper" id="cells-wrapper">
+          <!-- all the tetris cells will be added here -->
+        </div>
+      </div>
+      <div class="details-display">
+        <p>details-display</p>
+        <button onclick="startGame()">start</button>
+        <button onclick="pauseGame()">pause</button>
+      </div>
+    </div>
+    <div class="control-panel">
+      <div class="move-controls">
+        <div class="horizontal-controls">
+          <div class="left-btn-panel">left-btn-panel</div>
+          <div class="right-btn-panel">right-btn-panel</div>
+        </div>
+        <div class="vertical-controls">vertical-controls</div>
+      </div>
+      <div class="rotate-controls">rotate-controls</div>
+    </div>
+  </div>
+</body>
+</html>
